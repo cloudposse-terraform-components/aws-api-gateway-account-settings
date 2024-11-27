@@ -1,0 +1,7 @@
+# Upstream changes from _extends are only recognized when modifications are made to this file in the default branch.
+_extends: .github
+repository:
+  name: aws-api-gateway-account-settings
+  description: This component is responsible for setting the global, regional settings required to allow API Gateway to write to CloudWatch logs
+  homepage: https://cloudposse.com/accelerate
+  topics: terraform, terraform-component
