@@ -5,7 +5,7 @@ tags:
   - provider/aws
 ---
 
-# Component: `api`
+# Component: `api-gateway-account-settings`
 
 This component is responsible for setting the global, regional settings required to allow API Gateway to write to
 CloudWatch logs.
