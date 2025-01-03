@@ -5,3 +5,4 @@ repository:
   description: This component is responsible for setting the global, regional settings required to allow API Gateway to write to CloudWatch logs
   homepage: https://cloudposse.com/accelerate
   topics: terraform, terraform-component
+
