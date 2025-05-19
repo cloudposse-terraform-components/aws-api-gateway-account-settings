@@ -52,7 +52,7 @@ No providers.
 
 | Name | Source | Version |
 |------|--------|---------|
-| <a name="module_api_gateway_account_settings"></a> [api\_gateway\_account\_settings](#module\_api\_gateway\_account\_settings) | cloudposse/api-gateway/aws//modules/account-settings | 0.3.1 |
+| <a name="module_api_gateway_account_settings"></a> [api\_gateway\_account\_settings](#module\_api\_gateway\_account\_settings) | cloudposse/api-gateway/aws//modules/account-settings | 0.9.0 |
 | <a name="module_iam_roles"></a> [iam\_roles](#module\_iam\_roles) | ../account-map/modules/iam-roles | n/a |
 | <a name="module_this"></a> [this](#module\_this) | cloudposse/label/null | 0.25.0 |
 
