@@ -15,7 +15,6 @@ permissions to create and write to CloudWatch logs. Without this configuration, 
 logs to CloudWatch. This configuration is done once per region regardless of the number of API Gateways deployed in that
 region. This module creates an IAM role, assigns it the necessary permissions to write logs and sets it as the
 "CloudWatch log role ARN" in the API Gateway configuration.
-
 ## Usage
 
 **Stack Level**: Regional
@@ -36,7 +35,10 @@ components:
 ```
 
 <!-- prettier-ignore-start -->
-<!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
+<!-- prettier-ignore-end -->
+
+
+<!-- markdownlint-disable -->
 ## Requirements
 
 | Name | Version |
@@ -89,12 +91,17 @@ No resources.
 | Name | Description |
 |------|-------------|
 | <a name="output_role_arn"></a> [role\_arn](#output\_role\_arn) | Role ARN of the API Gateway logging role |
-<!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
-<!-- prettier-ignore-end -->
+<!-- markdownlint-restore -->
+
+
 
 ## References
 
-- [cloudposse/terraform-aws-components](https://github.com/cloudposse/terraform-aws-components/tree/main/modules/api-gateway-settings) -
-  Cloud Posse's upstream component
+
+- [cloudposse-terraform-components](https://github.com/orgs/cloudposse-terraform-components/repositories) - Cloud Posse's upstream component
+
+
+
 
 [<img src="https://cloudposse.com/logo-300x69.svg" height="32" align="right"/>](https://cpco.io/homepage?utm_source=github&utm_medium=readme&utm_campaign=cloudposse-terraform-components/aws-api-gateway-account-settings&utm_content=)
+
